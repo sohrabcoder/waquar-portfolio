@@ -59,19 +59,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Akif Jawaid";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Md Rafiuddin";
+            $("#favicon").attr("href", "assets/images/rafi.jpg");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "Frontend Developer | Md Rafiuddin";
+            $("#favicon").attr("href", "assets/images/rafi.jpg");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "web development"],
+    strings: ["frontend development", "web designing", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -96,7 +96,7 @@ function showSkills(skills) {
         skillHTML += `
         <div class="bar">
               <div class="info">
-                <img src=${skill.icon} alt="skill" />
+                <img src=${skill.icon} alt="skill"/>
                 <span>${skill.name}</span>
               </div>
             </div>`
@@ -119,7 +119,6 @@ function showProjects(projects) {
           <p>${project.desc}</p>
           <div class="btns">
             <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
           </div>
         </div>
       </div>

@@ -460,7 +460,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 60vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -529,13 +529,35 @@ header .navbar ul li a:hover {
     width: 100%;
   }
 }
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info img {
+  width: 70px;
+  height: auto;
+  margin-right: 10px; /* Adjust the space between the icon and the text if needed */
+}
+
+.info span {
+  font-size: 16px;
+  font-weight: bold;
+}
 /* skills media queries ends*/
 /* skills section ends */
 
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 .education .qoute {
   font-size: 1.5rem;

@@ -1,45 +1,33 @@
 [
  
   {
-    "name": "Next-e-Learning",
+    "name": "Doctall",
     "desc": "Developed a fully functional, full stack (MERN) e-learning platform web application called Next e Learning. ",
-    "image": "Next-e-Learning",
+    "image": "Doctall",
     "category": "mern",
     "links": {
-      "view": "https://akif-jawaid.github.io/Next-e-learning/",
-      "code": "https://github.com/Akif-Jawaid/Next-e-learning"
+      "view": "https://doctall.com/"
     }
   },
   {
-    "name": "FarmToTable",
+    "name": "eDeekshaam",
     "desc": "Developed a fully functional, full stack e-commerce web application for farmer and consumer in MERN stack.",
-    "image": "FarmToTable",
+    "image": "eDeekshaam",
     "category": "mern",
     "links": {
-      "view": "https://akif-jawaid.github.io/FarmToTable/",
-      "code": "https://github.com/Akif-Jawaid/FarmToTable/"
+      "view": "https://edeekshaam.in/"
     }
   },
   {
-    "name": "Coding-Carnival",
+    "name": "Mista Eats",
     "desc": "Developed the hackathon website where hackers can register and track their registration, and admins can verify and manage it",
-    "image": "codingcarnival",
+    "image": "mistaEats",
     "category": "mern",
     "links": {
-      "view": "http://16.170.233.114:5000/",
-      "code": "https://github.com/Akif-Jawaid/Coding-Carnival"
+      "view": "https://mealbox.mistaeats.com/landing"
     }
   },
-  {
-    "name": "5M Developers",
-    "desc": "This website is build for a construction firm.",
-    "image": "5M",
-    "category": "basicweb",
-    "links": {
-      "view": "https://akif-jawaid.github.io/5MDEVELOPERS/",
-      "code": "https://github.com/Akif-Jawaid/5MDEVELOPERS"
-    }
-  },
+
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
@@ -48,17 +36,6 @@
     "links": {
       "view": "#",
       "code": "#"
-    }
-  },
- 
-  {
-    "name": "Link List",
-    "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
-    "image": "sneakpeak",
-    "category": "basicweb",
-    "links": {
-      "view": "https://akif-jawaid.github.io/Link_List/",
-      "code": "https://github.com/Akif-Jawaid/Link_List"
     }
   }
 

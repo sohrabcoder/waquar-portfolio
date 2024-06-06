@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Akif Jawaid";
+            document.title = "Projects | Portfolio Md Rafiuddin";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {

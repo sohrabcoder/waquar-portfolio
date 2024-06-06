@@ -14,8 +14,8 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 Particle.js, Typed.js, Tilt.js, Scroll Reveal, Font Awesome and JSON
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](https://github.com/Akif-Jawaid/personal-portfolio/blob/c148f22ea83bce534ec6d7ef3c729958f2ba7fbf/assets/images/projects/portfolio.png)
-![ss](https://github.com/Akif-Jawaid/personal-portfolio/blob/63bf25a683cfdd7a9c62a17182d068b33f1b005a/assets/images/projects/skills.png)
+![mockup720]()
+![ss]()
 
 
 <h2>📬 Contact</h2>
@@ -23,6 +23,6 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Font Awesome and JSON
 
 If you want to contact me, you can reach me through below handles.
 
-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/akifjawaid/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/md-rafiuddin/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
-© 2024 Akif Jawaid
+© 2024 Md Rafiuddin
