@@ -110,19 +110,21 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-      <div class="content">
-        <div class="tag">
-        <h3>${project.name}</h3>
-        </div>
-        <div class="desc">
-          <p>${project.desc}</p>
-          <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-          </div>
-        </div>
-      </div>
-    </div>`
+            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+            <div class="content">
+                <div class="tag">
+                    <h3>${project.name}</h3>
+                </div>
+                <div class="desc">
+                    <p>${project.desc}</p>
+                    <div class="btns" style="margin-top: 10px;">
+                        <a href="${project.links.view}" target="_blank" class="btn" style="background-color: #00839b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none;">
+                            <i class="fas fa-eye"></i> View project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>`;
     });
     projectsContainer.innerHTML = projectHTML;
 
@@ -142,14 +144,19 @@ function showProjects(projects) {
 
     /* SCROLL PROJECTS */
     srtop.reveal('.work .box', { interval: 200 });
-
 }
+
+
 
 fetchData().then(data => {
     showSkills(data);
 });
 
 fetchData("projects").then(data => {
+    showProjects(data);
+});
+
+fetchData("details").then(data => {
     showProjects(data);
 });
 

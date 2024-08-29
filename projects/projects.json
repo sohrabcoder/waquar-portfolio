@@ -2,7 +2,7 @@
  
   {
     "name": "Doctall",
-    "desc": "Developed a fully functional, full stack (MERN) e-learning platform web application called Next e Learning. ",
+    "desc": "Doctall is a full-circle digital healthcare provider offering comprehensive primary and secondary medical services accessible anywhere, to everyone.",
     "image": "Doctall",
     "category": "mern",
     "links": {
@@ -11,7 +11,7 @@
   },
   {
     "name": "eDeekshaam",
-    "desc": "Developed a fully functional, full stack e-commerce web application for farmer and consumer in MERN stack.",
+    "desc": "E-Deekshaam adjusts the child's education plan and content as they progress.The system can track children's progress for teachers, parents, and Rehab professionals.",
     "image": "eDeekshaam",
     "category": "mern",
     "links": {
@@ -20,7 +20,7 @@
   },
   {
     "name": "Mista Eats",
-    "desc": "Developed the hackathon website where hackers can register and track their registration, and admins can verify and manage it",
+    "desc": "Mista Eats envision a world where an individual gets the best nutritious homemade food for their health and nourishment,",
     "image": "mistaEats",
     "category": "mern",
     "links": {
@@ -30,7 +30,7 @@
 
   {
     "name": "Portfolio Website",
-    "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+    "desc": "I'm a passionate Frontend Developer based in Hyderabad, India, with a background in Mechanical Engineering. I specialize in building responsive and user-friendly websites and mobile applications using modern frontend technologies. I continuously strive to improve my skills and deliver high-quality projects. My experience includes working on diverse projects, from digital healthcare platforms to educational tools. I am committed to creating accessible and efficient solutions that meet users' needs. My goal is to contribute to impactful projects that make a difference.",
     "image": "portfolio",
     "category": "basicweb",
     "links": {

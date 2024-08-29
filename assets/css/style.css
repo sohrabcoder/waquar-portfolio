@@ -74,7 +74,7 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 2rem 9%;
 }
 .heading {
@@ -572,6 +572,7 @@ header .navbar ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 .education .box-container .box {
   display: flex;
@@ -585,6 +586,8 @@ header .navbar ul li a:hover {
   overflow: hidden;
   transition: 0.3s;
   background: rgb(252, 252, 252);
+  margin-left: 100px;
+
 }
 .education .box-container .box:hover {
   transform: scale(1.03);
