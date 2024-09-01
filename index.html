@@ -15,11 +15,11 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Favicon -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     (function () {
       emailjs.init('rafimech40@gmail.com');
     })();
-  </script>
+  </script> -->
 
   <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
   <title>Portfolio | Md Rafiuddin </title>
@@ -217,6 +217,19 @@
     </div> -->
 
   </section>
+
+  <!-- Popup Container -->
+<div id="project-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h3 id="popup-title"></h3>
+    <p id="popup-description"></p>
+    <img id="popup-image" src="" alt="project image" />
+    <a id="popup-link" href="#" target="_blank" class="btn">View Project</a>
+  </div>
+</div>
+
+
   <!-- work project section ends -->
 
   <!-- experience section starts -->
@@ -308,28 +321,31 @@
           <img draggable="false" src="./assets/images/contact1.png" alt="">
         </div>
         <form id="contact-form">
-
           <div class="form-group">
             <div class="field">
-              <input type="text" name="name" placeholder="Name" required>
-              <i class='fas fa-user'></i>
+              <input type="text" name="from_name" placeholder="Name" required />
+              <i class="fas fa-user"></i>
             </div>
             <div class="field">
-              <input type="text" name="email" placeholder="Email" required>
-              <i class='fas fa-envelope'></i>
+              <input type="text" name="user_email" placeholder="Email" required />
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="field" style="display: none">
+              <input type="text" name="to_name" placeholder="Email" />
+              <i class="fas fa-envelope"></i>
             </div>
             <div class="field">
-              <input type="text" name="subject" placeholder="Subject">
-              <i class='fas fa-phone-alt'></i>
+              <input type="text" name="user_phone" placeholder="Phone" />
+              <i class="fas fa-phone-alt"></i>
             </div>
+
             <div class="message">
               <textarea placeholder="Message" name="message" required></textarea>
               <i class="fas fa-comment-dots"></i>
             </div>
           </div>
           <div class="button-area">
-            <button type="submit">
-              Submit <i class="fa fa-paper-plane"></i></button>
+            <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
           </div>
         </form>
       </div>
@@ -388,19 +404,24 @@
   <!-- scroll back to top -->
 
   <script type="text/javascript">
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
+    document.getElementById("contact-form").addEventListener("submit", function (event) {
       event.preventDefault();
 
       // Generate a five digit number for the contact number variable
-      this.contact_number.value = Math.random() * 100000 | 0;
-
+      this.contact_number.value = (Math.random() * 100000) | 0;
+      alert("Nasim");
+      alert($("[name=name]"));
+      alert("Nasim Akhtar");
       // These IDs from the previous steps
-      emailjs.sendForm('rafimech40@gmail.com', 'YOUR_TEMPLATE_ID', this)
-        .then(function () {
-          alert('Email sent successfully!');
-        }, function (error) {
-          alert('Failed to send email: ' + JSON.stringify(error));
-        });
+      // "rafimech40@gmail.com",
+      // emailjs.sendForm("service_hbxy10v", "template_tlhqjih", this).then(
+      //   function () {
+      //     alert("Email sent successfully!");
+      //   },
+      //   function (error) {
+      //     alert("Failed to send email: " + JSON.stringify(error));
+      //   }
+      // );
     });
   </script>
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
@@ -426,7 +447,8 @@
   <!-- scroll reveal anim -->
   <script src="https://unpkg.com/scrollreveal"></script>
 
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="config.js"></script>
 
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
