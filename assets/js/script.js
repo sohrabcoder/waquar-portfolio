@@ -120,8 +120,8 @@ function showProjects(projects) {
                 <div class="desc">
                     <p>${project.desc}</p>
                     <div class="btns" style="margin-top: 10px;">
-                        <button class="view-btn" data-project='${JSON.stringify(project)}' style="background-color: #00839b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-                            <i class="fas fa-eye"></i> Details
+                        <button class="view-btn" data-link='${project.links.view}' style="background-color: #00839b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+                            <i class="fas fa-eye"></i> View
                         </button>
                     </div>
                 </div>
@@ -133,8 +133,8 @@ function showProjects(projects) {
   // Add event listeners to all view buttons
   document.querySelectorAll(".view-btn").forEach((button) => {
     button.addEventListener("click", (event) => {
-      const project = JSON.parse(event.currentTarget.getAttribute("data-project"));
-      openPopup(project);
+      const projectLink = event.currentTarget.getAttribute("data-link");
+      window.open(projectLink, "_blank"); // Opens the project link in a new tab
     });
   });
 
@@ -152,28 +152,6 @@ function showProjects(projects) {
   });
 
   srtop.reveal(".work .box", { interval: 200 });
-}
-
-// Function to open the popup with project details
-function openPopup(project) {
-  const popup = document.getElementById("project-popup");
-  document.getElementById("popup-title").innerText = project.name;
-  document.getElementById("popup-description").innerText = project.desc;  
-  // document.getElementById("popup-image").src = `/assets/images/projects/${project.image}.png`;
-  document.getElementById("popup-link").href = project.links.view;
-  popup.style.display = "block";
-
-  // Close button event listener
-  document.querySelector(".close-btn").addEventListener("click", () => {
-    popup.style.display = "none";
-  });
-
-  // Hide popup when clicking outside the content area
-  window.addEventListener("click", (event) => {
-    if (event.target === popup) {
-      popup.style.display = "none";
-    }
-  });
 }
 
 fetchData("projects").then((data) => {
