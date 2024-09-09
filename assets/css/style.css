@@ -586,7 +586,7 @@ header .navbar ul li a:hover {
   overflow: hidden;
   transition: 0.3s;
   background: rgb(252, 252, 252);
-  margin-left: 100px;
+  /* margin-left: 100px; */
 
 }
 .education .box-container .box:hover {
