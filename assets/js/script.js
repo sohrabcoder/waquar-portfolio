@@ -63,17 +63,17 @@ $(document).ready(function () {
 
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
-    document.title = "Portfolio | Md Rafiuddin";
+    document.title = "Portfolio | Waquar Ahmad";
     $("#favicon").attr("href", "assets/images/rafi.jpg");
   } else {
-    document.title = "Frontend Developer | Md Rafiuddin";
+    document.title = "HVAC Design Engineer | Waquar Ahmad";
     $("#favicon").attr("href", "assets/images/rafi.jpg");
   }
 });
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["frontend development", "web designing", "web development"],
+  strings: ["HVAC Design Engineer", "Mechanical Engineer", "HVAC Engineer"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
