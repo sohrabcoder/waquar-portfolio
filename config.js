@@ -1,5 +1,5 @@
 const CONFIG = {
-  public_key: "UPJnHRtIRfSoAgPUW",
-  service_id: "service_dxbxh5g",
-  template_id: "template_1cev95y",
+  public_key: "zdUNaymoZhe0EUo-c",
+  service_id: "service_6yep205",
+  template_id: "template_ta89kpv",
 };
