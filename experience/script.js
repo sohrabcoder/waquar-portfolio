@@ -55,7 +55,7 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Md Rafiuddin";
+        document.title = "Experience | Portfolio Waquar Ahmad";
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {

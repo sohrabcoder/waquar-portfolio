@@ -26,7 +26,7 @@ If you want to contact me, you can reach me through below handles.
 
 &nbsp;&nbsp;<a href="https://www.linkedin.com/in/md-rafiuddin/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
-© 2024 Md Rafiuddin
+© 2025 Waquar Ahmad
 =======
 # waquar-portfolio
 >>>>>>> 9f5fd4bdbae0fb01489f246656f982aaf7dec25a
