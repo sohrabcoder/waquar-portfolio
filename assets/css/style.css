@@ -460,7 +460,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 60vh;
+  min-height: 50vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -474,7 +474,7 @@ header .navbar ul li a:hover {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: 90%;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -527,6 +527,7 @@ header .navbar ul li a:hover {
   .skills .container {
     margin-top: 5px;
     width: 100%;
+    
   }
 }
 
@@ -542,9 +543,9 @@ header .navbar ul li a:hover {
 }
 
 .info img {
-  width: 70px;
+  width: 100px;
   height: auto;
-  margin-right: 10px; /* Adjust the space between the icon and the text if needed */
+  /* margin-right: 10px; Adjust the space between the icon and the text if needed */
 }
 
 .info span {
@@ -699,7 +700,7 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 85%;
+  top: 55%;
   left: 0;
   background: rgba(255, 255, 255, 0.9);
   display: flex;
@@ -734,7 +735,7 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .work .desc .btns .btn {
   line-height: 0;

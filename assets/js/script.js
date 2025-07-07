@@ -103,56 +103,56 @@ function showSkills(skills) {
   skillsContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
-  let projectsContainer = document.querySelector("#work .box-container");
-  let projectHTML = "";
-  projects
-    .slice(0, 10)
-    .filter((project) => project.category != "android")
-    .forEach((project) => {
-      projectHTML += `
-        <div class="box tilt">
-            <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
-            <div class="content">
-                <div class="tag">
-                    <h3>${project.name}</h3>
-                </div>
-                <div class="desc">
-                    <p>${project.desc}</p>
-                    <div class="btns" style="margin-top: 10px;">
-                        <button class="view-btn" data-link='${project.links.view}' style="background-color: #00839b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-                            <i class="fas fa-eye"></i> View
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>`;
-    });
-  projectsContainer.innerHTML = projectHTML;
+// function showProjects(projects) {
+//   let projectsContainer = document.querySelector("#work .box-container");
+//   let projectHTML = "";
+//   projects
+//     .slice(0, 10)
+//     .filter((project) => project.category != "android")
+//     .forEach((project) => {
+//       projectHTML += `
+//         <div class="box tilt">,
+//             <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+//             <div class="content">
+//                 <div class="tag">
+//                     <h3>${project.name}</h3>
+//                 </div>
+//                 <div class="desc">
+//                     <p>${project.desc}</p>
+//                     <div class="btns" style="margin-top: 10px;">
+//                         <button class="view-btn" data-link='${project.links.view}' style="background-color: #00839b; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+//                             <i class="fas fa-eye"></i> View
+//                         </button>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>`;
+//     });
+//   projectsContainer.innerHTML = projectHTML;
 
-  // Add event listeners to all view buttons
-  document.querySelectorAll(".view-btn").forEach((button) => {
-    button.addEventListener("click", (event) => {
-      const projectLink = event.currentTarget.getAttribute("data-link");
-      window.open(projectLink, "_blank"); // Opens the project link in a new tab
-    });
-  });
+//   // Add event listeners to all view buttons
+//   document.querySelectorAll(".view-btn").forEach((button) => {
+//     button.addEventListener("click", (event) => {
+//       const projectLink = event.currentTarget.getAttribute("data-link");
+//       window.open(projectLink, "_blank"); // Opens the project link in a new tab
+//     });
+//   });
 
-  // Vanilla Tilt Effect
-  VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
-  });
+//   // Vanilla Tilt Effect
+//   VanillaTilt.init(document.querySelectorAll(".tilt"), {
+//     max: 15,
+//   });
 
-  // Scroll Reveal Animation
-  const srtop = ScrollReveal({
-    origin: "top",
-    distance: "80px",
-    duration: 1000,
-    reset: true,
-  });
+//   // Scroll Reveal Animation
+//   const srtop = ScrollReveal({
+//     origin: "top",
+//     distance: "80px",
+//     duration: 1000,
+//     reset: true,
+//   });
 
-  srtop.reveal(".work .box", { interval: 200 });
-}
+//   srtop.reveal(".work .box", { interval: 200 });
+// }
 
 fetchData("projects").then((data) => {
   showProjects(data);
