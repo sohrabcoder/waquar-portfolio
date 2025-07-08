@@ -24,7 +24,7 @@ Particle.js, Typed.js, Tilt.js, Scroll Reveal, Font Awesome and JSON
 
 If you want to contact me, you can reach me through below handles.
 
-&nbsp;&nbsp;<a href="https://www.linkedin.com/in/md-rafiuddin/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
+&nbsp;&nbsp;<a href="https://www.linkedin.com/in/waquar-ahmad-75594b104/"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
 © 2025 Waquar Ahmad
 =======

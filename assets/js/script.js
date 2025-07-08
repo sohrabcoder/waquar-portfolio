@@ -64,10 +64,10 @@ $(document).ready(function () {
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Waquar Ahmad";
-    $("#favicon").attr("href", "assets/images/rafi.jpg");
+    $("#favicon").attr("href", "assets/images/Waquar.jpeg");
   } else {
     document.title = "HVAC Design Engineer | Waquar Ahmad";
-    $("#favicon").attr("href", "assets/images/rafi.jpg");
+    $("#favicon").attr("href", "assets/images/Waquar.jpeg");
   }
 });
 
